@@ -37,7 +37,7 @@ $(document).ready(function() {
         e.preventDefault();
         return false;
     });
-    /**  */
+    /**  
     if ($('[data-sparkline]').length) {
         var generateSparkline = function($elem, data, params) {
             $elem.sparkline(data, {
@@ -64,7 +64,7 @@ $(document).ready(function() {
             });
         });
         });
-    }
+    } */
     /**  */
     if ($('.chart-circle').length) {
         $('.chart-circle').each(function() {
@@ -90,19 +90,6 @@ $(document).ready(function() {
         // Toggle the item
         $(this).toggleClass("is-active").children(".accordion-panel").slideToggle("ease-out");
     });
-    // block-header bar chart js
-    $('.bh_income').sparkline('html', {
-        type: 'bar',
-        height: '30px',
-        barColor: '#cedd7a',
-        barWidth: 5,
-    });
-    $('.bh_traffic').sparkline('html', {
-        type: 'bar',
-        height: '30px',
-        barColor: '#e8769f',
-        barWidth: 5,
-    });  
 });
 
 // table-filter js
@@ -282,16 +269,6 @@ $(document).ready(function() {
     });
 });
 
-// Search list js
-$(document).ready(function() {
-    "use strict";
-
-    var options = {
-        valueNames: [ 'name', 'born' ]
-      };
-      
-    var userList = new List('users', options); 
-});
 
 function setStyleSheet(url){
     var stylesheet = document.getElementById("theme_stylesheet");
