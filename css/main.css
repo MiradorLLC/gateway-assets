@@ -8701,10 +8701,6 @@ textarea[cols] {
 	background: #2185d0;
 	color: #fff
 }
-.map, .chart {
-	position: relative;
-	padding-top: 56.25%
-}
 .map-square, .chart-square {
 	padding-top: 100%
 }
