@@ -1,4 +1,15 @@
-﻿.node {
+#externalTweets, #internalTweets {
+    overflow: auto;
+    max-height: 700px;
+}
+
+.tweet {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+.node {
 		cursor: pointer;
 	}
 
